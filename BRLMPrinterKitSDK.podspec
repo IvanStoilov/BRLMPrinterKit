@@ -9,6 +9,4 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/IvanStoilov/BRLMPrinterKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'BRLMPrinterKit/BRLMPrinterKit.xcframework'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
